@@ -1,9 +1,9 @@
 class MuxedBin < Formula
   desc "Another TMUX project manager"
-  version "0.8.1"
+  version "0.8.2"
   homepage "https://github.com/brianp/muxed"
   url "https://github.com/brianp/muxed/releases/download/#{version}/muxed-#{version}-x86_64-apple-darwin.tar.gz"
-  sha256 "05dbc136b3de30d2f190bb6f0008cea8b6ec52f70ac6e180679c3b92d78d64c2"
+  sha256 "7a3dee15ea74b8827eccc08cf8f8e159f42b78b732d1480afe769bffda5bde79"
 
   def install
     bin.install "muxed"
